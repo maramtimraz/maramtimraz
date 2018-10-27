@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+
+ <Button
+     android:id="@+id/articleBtn"
+     android:padding="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Article"
+     android:textColor="#FFF"
+     android:textSize="20sp"
+     android:background="#F50057"
+     android:layout_gravity="center_horizontal"
+     android:layout_marginBottom="15dp"
+     />
+
+    <Button
+        android:id="@+id/survivalBtn"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Survival cases"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:background="#F50057"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/educateBtn"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Educate people"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:background="#F50057"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/earlyBtn"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Early Detection"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:background="#F50057"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
